@@ -5,4 +5,4 @@
   :repo "git+https://github.com/m7andrew/escape-url")
 
 (declare-source
-  :source ["src/url.janet"])
+  :source ["url.janet"])
