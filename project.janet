@@ -2,7 +2,7 @@
 (declare-project
   :name "url"
   :description "escape/unescape url strings"
-  :repo "git+https://github.com/m7andrew/escape-url")
+  :url "https://github.com/m7andrew/escape-url.git")
 
 (declare-source
   :source ["url.janet"])
