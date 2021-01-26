@@ -5,7 +5,7 @@
   (or (<= (chr "a") b (chr "z"))
       (<= (chr "A") b (chr "Z"))
       (<= (chr "0") b (chr "9"))
-      (= b (chr "-") (chr "_") (chr ".") (chr "~"))))
+      (some (partial = b) [(chr "-") (chr "_") (chr ".") (chr "~")])))
 
 (defn- decode [b] 
   (cond (<= (chr "0") b (chr "9")) (- b (chr "0"))
