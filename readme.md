@@ -1,10 +1,13 @@
 
-[Janet](https://janet-lang.org) library to escape and unescape url strings.
+A small [Janet](https://janet-lang.org) library to escape and unescape url strings.
 
-* `escape` Takes a string, returns a new escaped string.
-* `unescape` Takes a string, returns a new unescaped string.
+## Install
 
-### Example
+```
+jpm install https://github.com/m7andrew/escape-url
+```
+
+## Examples
 
 ```clojure
 (import url)
@@ -17,3 +20,24 @@
 
   "Hello World!"
 ```
+
+## Functions
+
+* [Escape](#escape)
+* [Unescape](#unescape)
+
+### Escape
+
+```clojure
+(url/escape str)
+```
+
+Takes a string `str` and returns a new escaped string.
+
+### Unescape
+
+```clojure
+(url/unescape str)
+```
+
+Takes a string `str` and returns a new unescaped string.
