@@ -1,5 +1,5 @@
 
-A small [Janet](https://janet-lang.org) library to escape and unescape url strings.
+A small [Janet](https://janet-lang.org) library to escape and unescape URL strings.
 
 ## Install
 
