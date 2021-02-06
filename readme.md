@@ -23,10 +23,7 @@ jpm install https://github.com/m7andrew/escape-url
 
 ## Functions
 
-* [Escape](#escape)
-* [Unescape](#unescape)
-
-### Escape
+#### Escape
 
 ```clojure
 (url/escape str)
@@ -34,7 +31,7 @@ jpm install https://github.com/m7andrew/escape-url
 
 Takes a string `str` and returns a new escaped string.
 
-### Unescape
+#### Unescape
 
 ```clojure
 (url/unescape str)
